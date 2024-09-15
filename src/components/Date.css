@@ -1,0 +1,15 @@
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .date-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  .date-picker input {
+    margin-right: 10px;
+  }
+  

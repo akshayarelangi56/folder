@@ -1,0 +1,58 @@
+.MainDash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.MainDashHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.DateSelector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between the input and button */
+}
+
+.DateInput {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.DateButton {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.DateButton:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 1200px) {
+    .MainDash {
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .MainDash {
+        align-items: center;
+    }
+
+    .MainDashHeader {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
